@@ -1,0 +1,13 @@
+beautifulsoup4
+langchain
+langgraph
+langchainhub
+tavily-python
+langchain-chroma
+python-dotenv
+black
+isort
+pytest
+langchain-unstructured
+langchain-text-splitters
+
