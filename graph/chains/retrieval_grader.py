@@ -1,8 +1,9 @@
 from langchain_core.prompts import ChatPromptTemplate
 from pydantic import BaseModel, Field
 from langchain_google_genai import ChatGoogleGenerativeAI
+from langchain_groq import ChatGroq
 
-llm = ChatGoogleGenerativeAI(model='gemini-3.5-flash', temperature=0)
+llm = ChatGroq(model='openai/gpt-oss-120b', temperature=0)
 
 
 class GradeDocuments(BaseModel):
