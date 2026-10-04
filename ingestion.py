@@ -33,11 +33,11 @@ vectorstore = Chroma.from_documents(
     persist_directory="./.chroma"
 )
 
-retriever = Chroma(
-    collection_name="rag-chroma",
-    persist_directory="./.chroma",
-    embedding_function=embeddings,
-).as_retriever()
+# retriever = Chroma(
+#     collection_name="rag-chroma",
+#     persist_directory="./.chroma",
+#     embedding_function=embeddings,
+# ).as_retriever()
 
 print("Ingestion complete!")
 
